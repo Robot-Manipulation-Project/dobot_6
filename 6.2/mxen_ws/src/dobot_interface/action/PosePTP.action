@@ -1,0 +1,5 @@
+float32[4] pose_goal
+---
+bool success
+---
+float32[4] pose_present

@@ -1,0 +1,11 @@
+<launch>
+
+<executable cmd="python3 $(find-pkg-share dobot)/resource/dobot_server.py"/>
+<node pkg="dobot" exec="homing_node"/>
+<node pkg="dobot" exec="joint_state_node"/>
+<node pkg="dobot" exec="suction_cup_node"/>
+<node pkg="dobot" exec="joint_ptp_node"/>
+<node pkg="dobot" exec="cartesian_ptp_node"/>
+<node pkg="dobot" exec="pick_and_place_node"/>
+
+</launch>

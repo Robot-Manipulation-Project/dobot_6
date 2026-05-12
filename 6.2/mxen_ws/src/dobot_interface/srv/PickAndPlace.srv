@@ -1,0 +1,5 @@
+float32[4] pick_pose
+float32[4] place_pose
+---
+bool success
+string message
